@@ -58,7 +58,7 @@ If `WEATHER_API_KEY` is missing, the application fails during startup with a cle
 
 ```bash
 go mod download
-WEATHER_API_KEY=your-api-key go run ./cmd/api
+go run ./cmd/api
 ```
 
 The API will be available at:

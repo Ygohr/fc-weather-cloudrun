@@ -4,6 +4,10 @@
 
 Weather Cloud Run is a standalone Go HTTP API that receives a Brazilian ZIP Code (CEP), resolves its city using ViaCEP, fetches current weather data from WeatherAPI, and returns the temperature in Celsius, Fahrenheit, and Kelvin.
 
+## Cloud Run
+
+Application URL: https://location-weather-164168176181.us-central1.run.app/weather?cep=your-cep
+
 ## Architecture
 
 The project follows a simple Clean Architecture organization:
@@ -193,7 +197,3 @@ internal server error
 ├── go.mod
 └── go.sum
 ```
-
-## Cloud Run
-
-Application URL: https://location-weather-164168176181.us-central1.run.app/weather?cep=99999999
